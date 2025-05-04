@@ -11,9 +11,15 @@ A fast copy tool written in Go.
   - Optimized for copying large file using buffered I/O and file pre-allocation.
 
 ## Installation
-- Download the latest binary for your platform from the Releases tab.
-- (Optional) Move the binary to a directory in your system’s PATH for easier access, such as /usr/local/bin on Linux/macOS or add it to the PATH on Windows.
-
+1. Download the latest release (FastCopy.zip) from the Releases tab.
+2. Unzip the downloaded file.
+3. Navigate to the folder corresponding to your operating system:
+   - **Windows**: Go to the `windows` folder and use `FastCopy.exe`.
+   - **Linux**: Go to the `linux` folder and use `FastCopy`.
+   - **macOS**: Go to the `macos` folder and use `FastCopy`.
+4. On **Linux/macOS**, make the binary executable by running the following command:
+   ```bash
+   chmod +x FastCopy
 ## Usage
 ```
 fastcopy <source> <destination> [--quiet]
